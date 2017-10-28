@@ -74,6 +74,8 @@
 
 -(NSUInteger)appID;
 
+-(NSString *)pkt_getToken;
+
 -(void)loginWithDelegate:(id<PocketAPIDelegate>)delegate; // this method will not do anything if used in an extension
 
 -(void)saveURL:(NSURL *)url
