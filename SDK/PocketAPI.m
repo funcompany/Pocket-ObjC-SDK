@@ -49,8 +49,6 @@ static NSString *kPocketAPIKeychainKeyTokenDigest = @"tokenDigest";
 
 +(NSString *)pkt_hashForConsumerKey:(NSString *)consumerKey accessToken:(NSString *)accessToken;
 
--(NSString *)pkt_getToken;
-
 -(PocketAPILogin *)pkt_loadCurrentLoginFromDefaults;
 -(void)pkt_saveCurrentLoginToDefaults;
 
